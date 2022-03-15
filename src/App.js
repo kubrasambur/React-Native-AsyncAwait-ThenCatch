@@ -46,6 +46,7 @@ function App() {
 
   return (
     <SafeAreaView style={styles.container}>
+      // loading true ise ActiviyIndicator ü göster : dan sonrası = değilse Flatlist i göster
       {loading ? (
         <ActivityIndicator size="large" color="#0000ff" />
       ) : (
